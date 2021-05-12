@@ -19,14 +19,6 @@
                     "hostPort": 80
                 }
             ],
-            "logConfiguration": {
-                "logDriver": "awslogs",
-                "options": {
-                    "awslogs-region": "us-east-1",
-                    "awslogs-stream-prefix": "test",
-                    "awslogs-group": "/ecs/jenkins-test"
-                }
-            },
             "memory": 1024,
             "cpu": 0,
             "volumesFrom": []
